@@ -30,7 +30,7 @@ else{
     }
   }
 }
-qty = x_pack[idx]/d_conduit * y_pack[idx]/d_conduit;
-printf("Será usada a embalagem %d e nela conterá %d tubos. \n", idx, qty);
+qty = (x_pack[idx]/d_conduit) * (y_pack[idx]/d_conduit);
+printf("Será usada a embalagem %d e nela conterá %d tubos. \n", idx+1, qty);
 }
 

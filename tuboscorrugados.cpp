@@ -10,7 +10,7 @@ int d_conduit = 20;
 int z_conduit = 1000;    
 
 //Escolha da embalagem
-void main(){
+int main(){
 int z_emb = 0;
 int idx = 0;
 int qty = 0;
@@ -32,5 +32,6 @@ else{
 }
 qty = (x_pack[idx]/d_conduit) * (y_pack[idx]/d_conduit);
 printf("Será usada a embalagem %d e nela conterá %d tubos. \n", idx+1, qty);
+  return 0;
 }
 
